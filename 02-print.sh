@@ -10,7 +10,7 @@ echo "Hello World"
 # Cyan 36
 
 #Syntax to use echo colour
-# echo -e "\e[CODEmMESSAGE\e[0m"  #0m to reset the colour
+# echo -e "\e[CODEmMESSAGE\e[0m"  # 0m to reset the colour
 
 echo -e "\e[31mHello World\e[0m"
 echo -e "\e[32mHello World\e[0m"

@@ -19,5 +19,14 @@ echo -e "\e[34mHello World\e[0m"
 echo -e "\e[35mHello World\e[0m"
 echo -e "\e[36mHello World\e[0m"
 
+# Redirect the stdout and stderr to diff diff file.
+ls non_existent_directory > output.txt 2> error.txt
+
+# Redirect the stdout and stderr to same file.
+ls non_existent_directory &> error_output.txt
+
+
+
+
 
 

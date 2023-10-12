@@ -1,7 +1,7 @@
 greeting() {
-  echo Hello, Good Morning.
-  echo Welcome to Devops Training.
-  echo Good to Have you hear.
+echo -e "Hello, Good Morning.\n"
+echo -e "Welcome to DevOps Training.\n"
+echo -e "Good to Have you here.\n"
 }
 
 # So by using function we can pass multiple command in a single.

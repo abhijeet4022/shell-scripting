@@ -18,6 +18,12 @@ echo Today date is $DATE
 ADD=$(( 2+2 ))     #Here we have to pass this two bracket ().
 echo ADD of 2+2 = $ADD
 
+#Access environment variable
+echo Current User is - $USER
+echo ENV Var test is - $test
+
+#env=Is the command to list system varables.
+#export abc=100  #To mark varable as a environment variables
 
 
 

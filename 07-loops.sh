@@ -9,7 +9,7 @@ while [ $a -gt 0 ]; do
   #break #This command can break the loop.
 done
 
-#This will print 10 times Hello World
+#This will print 10 times Hello World.
 
 
 #Based on Inputs

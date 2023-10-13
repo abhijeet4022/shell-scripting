@@ -26,7 +26,8 @@ ls non_existent_directory > output.txt 2> error.txt
 ls non_existent_directory &> error_output.txt
 
 # It will prnit the output and redirect the output in /tmp/roboshop.log
-echo -e "\e[34mConfiguring the repo for NodeJS.\e[0m" | tee -a /tmp/roboshop.log  | tee -a /tmp/roboshop.log
+echo -e "\e[34mConfiguring the repo for NodeJS.\e\n[0m" | tee -a /tmp/roboshop.log
+#\n to change the line
 
 
 

@@ -9,8 +9,8 @@ echo -e "Good to Have you here.\n"
 greeting
 echo function exit status - $?
 
-#exit: If we want to comeout from script we will pass exit
-#return : if we want to exit from funtion then we will pass return
+#exit: If we want to come out-from script we will pass exit
+#return : if we want to exit from function then we will pass return
 
 # We declare var in main program, we can access that in function and vice-versa.
 # Function have its own special variables.
